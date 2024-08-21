@@ -1,0 +1,90 @@
+
+
+Recap:
+
+== equal to
+=== equal value and equal type
+!= not equal
+!== not equal value and not equal type
+
+
+
+COMPARISON OPERATORS:
+
+let x = 5, y = 10, z = '5';
+console.log( x == z ); //true
+console.log( x === y ) //false
+
+console.log(x != y); //true
+console.log(x != z); //false
+
+console.log(x > z ); // false
+console.log(x < y); //true
+
+console.log(y >= (2 * 5));  //true
+
+All the comparison operatores return you true / false (BOOLEAN)
+
+Logical operators:
+Result of logical operators is boolean
+&& logical and
+|| logical operatores
+! logical not
+
+3 > 1 && 1 > 10          //false when there is 1 false with && its all false
+true && true             // true
+true && false            // false
+false && false           //false
+valid username && valid password   //true
+not valid username && valid password  // false
+
+1 === 1 || !false         //true
+2 == 3  || 5 < 10        //true      if 1 is true and 1 is false , it becomes true with OR 
+the only case we are getting False -> two falses
+
+When we have AND && used with 2 expressions;
+-The only way to get true: both of them should be true
+-If one of them or both of them are false, then the result is false
+
+When you have OR || used with 2 expressions;
+-The only way to get false: both of them should be false
+-If one of them or both are true, then the result is true
+
+FALSY (considered as false in JS)
+0
+'' - empty string
+false
+null 
+undefined 
+NaN
+
+Any other values except the falsy ones are truthy
+
+
+There are 2 types of languaages
+
+Compiled languages: TS ,Java, C#
+Strict, more syntax rule
+
+Interpreted languages: JS
+More flexible, and evaluates expressions more like human way
+
+! not operator
+!false -> true
+!true -> false
+
+nullish coalescing operator (??)
+
+null vs undefined 
+
+null - absence of data
+let var1 = null;
+
+undefined - declared, but not assigned any value
+
+
+JS has built in Number object which has many useful properties and functions
+properties: information about the object (What it has)
+functions or methods: abilities/behaviours of the object(What it does)
+
+

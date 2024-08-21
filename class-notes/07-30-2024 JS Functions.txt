@@ -1,0 +1,21 @@
+
+
+Function: is a block of code we can execute for a task
+It increases reusability of the code
+
+{} -> block
+
+POINTS to consider when creating a function
+1.Task - what it does
+2.Give it a meaningful fuctionName
+3.Parameters/aruments
+4.Return type/void type - what it returns if it return type method
+5.static-non-static
+
+Static
+Math.max()
+Number.isinteger()
+String.valueOf()
+
+Non-static
+'Hello'.toUpperCase()

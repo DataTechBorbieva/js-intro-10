@@ -1,0 +1,78 @@
+
+Recap:
+
+Data Types:
+1. primitives:
+-1. string - text
+-2. number - absolute / decimal numbers
+-3. boolean - true/false
+-4.undefined - when variable is declared but not assigned with value
+-5. null - explicitly stating the absence of data/ value
+-6. bigint - large numbers
+-7. symbol
+
+2.Reference Types (Object)
+- you are allowed to create your custom objects or reference types
+
+Arrays: is a collection used to store multiple data which are simimlar (or not necessarily)
+
+const arr = [12, 'John', '123', true, null] -> different data ( not same and not preffered much to store different data type in an array but still could be)
+
+const cities = ['Chicago', 'Rome', 'Berlin', 'Atina'];
+
+Objects: used to store key - value pairs (properties)
+
+car
+make = 'Volvo'
+model = 'UX 600'
+year = 2022
+mileage = 10000
+VIN = 'XYZ000111222999333'
+
+const car = {
+
+make: 'Volvo',
+model: 'UX 600',
+year: 2022,
+mileage: 10000,
+VIN: 'XYZ000111222999333'
+
+};
+
+= vs == vs ===
+
+= assignment operator 
+
+Comparison 
+==(loose) checks only values and return true if the are same value. It does not care about the data type
+===(strict) strict check both the values and types. Returns thue if both are equal , or false otherwise
+
+MAC CLI commands 
+Widows CLI commands
+
+GUI - graphical user interface
+
+
+Remainder /Modulus
+27 % 6 = 3 -> 3 remainder
+104 % 25 = 4 -> remainder
+69 % 7 = 6 
+
+20 % 5 = 0
+3 % 6 = 3 // if the number on the left is smaller than the right number Remainder is always the left number
+
+1. If the number on the left of the operator is less than the one on the right, then the remainder is the left number
+3 % 6 = 3
+2. if the number on the left is divisble  by the number on the right , then the remainder is always 0
+100 % 50 = 0
+3. if the number on the left is greater than the number on the right, then you will calculate and find the remainder 
+
+ORDER OF OPERATION 
+-Parantheses
+-Exponent 
+-Multiplication and division
+-Modulus/remainder
+-addition and substruction
+
+27 / 9 * 3 = 9 
+

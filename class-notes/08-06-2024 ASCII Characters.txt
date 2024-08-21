@@ -1,0 +1,10 @@
+
+
+ASCII Representations:
+
+32         Space
+48-57      [0-9]
+65-90      [A-Z]
+97-122     [a-z]
+rest is special characters
+

@@ -1,0 +1,46 @@
+
+RECAP:
+if-else control flow / conditional statements
+it works with a condition and off of the condition, there will be different block of codes to be executed
+
+let prcie = 0;
+let color = 'White';
+if (color !== 'White'){
+    price += 50;
+}
+
+let day = 'Monday';
+
+if (day === 'Monday){
+    cosnole.log('Go to work);
+}
+else if(day === 'Sunday'){
+    console.log('Go to concert);
+}
+
+
+
+// Finding if a number us EVEN or ODD without function
+let num = Math.floor(Math.random() * 10); // between 0 to 9, 10 is not included
+
+if(num % 2 === 0){
+    console.log('Even');
+}
+else{
+    console.log('Odd');
+}
+
+
+// Finding if a number us EVEN or ODD with function
+//we dont need to use else in second return in a method
+//once 1st return is returned then it is enough it will be printed 
+
+function evenOdd(num){
+    if(num % 2 === 0){  //once we get 1 return it means fucntion is done 
+   return 'Even';
+}
+else{
+    return 'Odd';
+}
+
+}

@@ -1,0 +1,40 @@
+
+Extract Characters:
+1.access property with []
+2.charAt()
+3.at()
+4.charCodeAt()
+
+Search the index:
+1.indexOf()
+2.lastIndexOf()
+3.includes()
+4.startsWith()
+5.endsWith()
+
+Changing cases:
+1.toLowerCase()
+2.toUpperCase()
+
+legth property: returns the total number of Characters
+
+Concatenation:
+1.concat()
+
+substring() vs slice()
+'Hello'.susbtring(3,1); //'el'
+'Hello'.slice(3,1); //''
+
+'Morning'.slice(-5,-3); //'rn'
+'Morning'.susbtring(-5,-3); //''
+
+'Computer'.slice(-4); //'uter'
+'Computer'.substring(-4); //'Computer' -> -4 considered as 0. like starts from 0 and till the end
+
+'pencil'.slice(-2, -4); // '' slice() doesnt read backwards
+
+'TechGlobal'.replace('Tech', '').toUpperCase().split('');['G','L','O','B','A','L']
+
+
+
+

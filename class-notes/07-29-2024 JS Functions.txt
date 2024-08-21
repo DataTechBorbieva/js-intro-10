@@ -1,0 +1,15 @@
+
+function: method or behavior of an object-
+
+REUSABLE: one of the biggest advantage of creating functions
+
+CREATING A FUNCTION:
+fuction functionName(arg1, arg2, arg3){
+//this is a block of the code
+return ...
+}
+
+fuctionName();
+
+void: this does not return any value
+return - type: these methods return something

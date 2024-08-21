@@ -1,0 +1,56 @@
+
+07-17-2024 JS Output
+
+
+Execute: Execution: Execution: Run 
+
+Compile: Compiler:  Compilation: compiler error - Syntax error -> Check if any error exists 
+
+Comments: short description
+
+Statement: any line of code that is written with a programming language
+
+console.log('Hello'); //This is JS statement
+System.out.println("Hello"); //This is Java statement
+Console.WriteLine("Hello"); //This is C# statement 
+
+
+How to duplicate lines
+Mac 
+Option + Shift + down or up
+Windows 
+Alt + Shift + down or up
+
+VARIABLES:
+- it is a special container that stores a value
+- you can change the initial value
+
+
+var-let-Comments
+Before 2015(ES6)
+-there was only VAR keyboard used for VARIABLES
+- You can re-assign values to var VARIABLES
+
+After 2015(ES6)
+- JS introduced 2 new keywords: let and const to be used instead of var keyword
+- let can be re-assigned with a new value
+-const it used for constants and cannot be re-assigned
+
+-let can be declared and assigned a value later
+-let variable value is going to be undefined if its declared but not assigned with any value
+-const cannot be decalred without a value and MUST always be initialized with an initial value
+
+Data Types:
+string : text data type which can be stored in VARIABLES using single or double quotes
+number : is number data which can be stored in variables without quotes
+
+Concatenation: combining multiple strings together using + operator 
+
+'5' + 3 = '53'
+'5' + 3 + 2 = '532'
+'5' + (3 + 2) = '55'
+2 + 1 + '0' = '30'
+
+Variable Naming: how we should name our variables?
+
+Convention: its not a written rule but followed by all the coders/programmers

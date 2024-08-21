@@ -1,0 +1,139 @@
+
+Recap :
+
+Output statements: console.log()
+This is a prebuilt method used to output some data, text to console for debugging purposes.
+
+Debuggin: Trouble -shooting the program to find issues, logic errors etc
+
+Escape Sequances:
+\'
+\"
+\\
+\n insert a new line
+\t insert a tab Space
+
+With ES6, JS added with backticks which provides Template Literals
+These backticks allows us to insert any special characters in out text including tab space or new line
+
+`    Hello,
+
+Today is a beatiful way!`
+
+// single line Comment
+/**
+* documentation
+*/
+
+
+
+variables: Special containers used to store data and these variables can be accessed later in your program
+
+var-let-const are used to declare or inititalize variables in JS and These
+
+Syntax: Initialization 
+var variableName = value;
+let varName = value;
+const varName = value;
+
+Declaration:
+var variableName; //undefined
+let varName; //undefined
+
+Assignment:
+varName = value;
+
+Re-assignment:
+varName = value;
+
+Variable Naming Rules and Conventions:
+Rule: is syntax and we have to follow
+Convention: not a rule and will not break the program if you do not follow but it is highly recommended and followed by programmers
+
+RULES:
+- You can not start variable with a digit
+- No special characters allowed except _ (underscore), $, and other currency strings
+- No space
+- You can not use a variable name twice in the same file and in the same scope
+- You cannot use reserved keywords: var,let,const,function, class, static, finally, abstract
+
+Convention:
+-Variable name should always be meaningful
+-camelCase rule is followed for variables which my have a few word in it numberOfStudentsInBatch10
+-Variable names are usually (99%) starts with lowercase letters
+-SSN, ZIP, dateOfBirth, DOB , dob,TIN, VIN, MTN , mobileTelephoneNumber
+-We do not prefere too long variable names
+
+DATA TYPES:
+
+Primitive Types: basic types that usually stores a piece of information
+7 primitives:
+String: text
+Number: number
+BigInt: big number
+boolean: true or false
+undefined: 
+null:
+symbol:
+
+Reference Types: 
+arrays, objects, maps
+
+
+1. String: a sequence of characters (zero, one, or multiple characters)
+We store strings in single or double quotes
+let name = 'John';
+let city = "Chicago";
+
+1. String: a sequence of characters ( zero or multipe characters)
+
+'' - empty string
+' ' - string
+'123' - string
+
+2. Number : in JS is used to store all absolute and decimal numbers (8 bytes)
+
+Whole numbers - absolute numbers: 1,2,3,4,500,10000
+Decimal numbers - floating numbers: 2.5, 10.99, 1.34897
+
+byte: -128,127
+short: 2 bytes
+int: 4 bytes
+long: 8 bytes
+
+float: 4 bytes up to 15-16 precision
+double: 
+
+3. BigInt: used to store larger numbers (more than 8 bytes)
+
+
+
+
+
+= vs == vs ===
+= assignment 
+== comparison (loose)
+=== somparison operator (strict)
+
+3==3 true
+3 == '3' false
+3 === '3' false === checks data type and variable
+
+Undefined vs null
+undefined is the default type when you declare a variable but do not provide any value.
+Null is specially stating that this variable holds no value. Absence of information
+
+typeOf undefined will return undefined
+typeOf null will return object
+
+let laptopModel;
+
+Object data type is used to store key-value pairs, properties
+firstName = 'John';
+lastName = 'Doe';
+age = 25;
+phoneNumber = '000-000-0000';
+email = 'johndoe@gmail.com';
+password = 'john1234'
+
+

@@ -1,0 +1,9 @@
+
+JS provides us some global functions you can invoke without referencing from any objects
+
+isNan()
+parseFloat()
+parseInt()  -> will not return a decimal point
+call()
+bind()
+apply()

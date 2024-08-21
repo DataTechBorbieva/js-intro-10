@@ -1,0 +1,63 @@
+
+IF - ELSE PART 2
+
+Control flow statements or conditional statements used to run different block of codes based on condition
+- it checks a condition which always returns true or false to decide the block to be executed
+There will be only 1 blcok execution unless there is nested if else statements 
+
+
+
+syntax:
+if(condition){
+    //..your code here
+}
+else{
+    //.. your code here
+}
+
+
+TERNARY : is a common approach used for a simple if - else statements
+
+condition ? expression1 : expression2;
+
+if condition is TRUE expression 1 will be executed. if FALSE expression2 will be executed
+
+LADDER if-else IF statement:
+let num = ______;
+if (num > 0){
+    console.log('POSITIVE);
+}
+else if(num < 0){
+    console.log('NEGATIVE);
+}
+else {
+    console.log('NEUTRAL');
+}
+
+NESTED IF -ELSE statement 
+
+if (num > 0){
+    console.log('POSITIVE);
+}
+else{
+    if (num < 0){
+    console.log('NEGATIVE');
+    }
+    else{
+         console.log('NEUTRAL');
+}
+}
+
+if (num !== 0){
+    if(num > 0) {
+         console.log('POSITIVE);
+    }
+    else{
+           console.log('NEGATIVE');
+    }
+}
+else{
+       console.log('NEUTRAL');
+}
+
+REDUNDANT CODE: unnecessary code and does not do anything 

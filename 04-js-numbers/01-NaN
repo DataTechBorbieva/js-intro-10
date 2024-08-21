@@ -1,0 +1,51 @@
+
+console.log(NaN); //NaN
+
+console.log(3 * '5'); //15
+console.log(3 + '5'); //'35'
+console.log(3 - '5'); //1
+
+console.log(5 - 'abc'); //NaN
+console.log(NaN + 'Hello'); //NaNHello
+
+
+// isNan() function - method used to check if an expression evaluates to number or not
+
+console.log(isNaN(5)); //false
+console.log(isNaN(10 * true)); //false (10 * 1 )
+console.log(isNaN(10 * 'Hello')); //true
+console.log(isNaN('John')); //true
+console.log(isNaN(true)); //false (true is still considered as a number and result is false)
+console.log(isNaN('true')); //true
+console.log(isNaN(NaN)); //true
+
+сonsole.log(typeof NaN); //number
+console.log(typeof isNaN(NaN))// 'boolean'
+
+console.log( 0 / 0 ); //NaN
+console.log( 2 / 0 ); //infinity
+console.log( typeof (2 / 0) ); //number
+
+let num1 = Infinity; num2 = -Infinity;
+console.log(num1, num2);
+
+console.log(Infinity);
+console.log(-Infinity);
+
+
+console.log(5 / 0);//infinity
+console.log(-5 / 0);//-Infinity
+
+console.log(Infinity + Infinity); //Infinity
+console.log(Infinity - Infinity); //NaN
+console.log(Infinity * Infinity); //Infinity
+console.log(Infinity / Infinity); //NaN
+console.log(typeof Infinity); //number
+console.log(typeof -Infinity); //number
+
+
+
+
+
+
+
